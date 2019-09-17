@@ -17,3 +17,10 @@ Novice front-end developer with technical education. Highly motivated to improve
 * JavaScript30 (2019)
 * CS50 lectures (2019)
 * Mail.ru Dalabase for beginners lectures (2019)
+
+## Technical skills
+
+* **Programming languages and technologies**: HTML, CSS, responsive/adaptive markup, JavaScript (ES5, ES2015)
+* **Frameworks and libraries**: bootstrap, jQuery, Firebase
+* **Tools**: Photoshop, VS code, Brackets, GIT
+* **Other skills**: anvance Windows user, AdobePremierPro video editing, streaming

@@ -1,1 +1,1 @@
-# rsschool-cv
+https://spinagrblzzz.github.io/rsschool-cv/cv

@@ -5,6 +5,8 @@ body{
 article {
     max-width: 1024px;
     margin: 0 auto;
+
+    border: solid black 2px;
 }
 
 section {

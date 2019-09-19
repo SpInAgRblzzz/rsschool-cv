@@ -32,7 +32,8 @@ h2 {
     top: 50px;
 }
 
-.personal-info ul {
+.personal-info ul,
+.technical-skills ul {
     padding: 0px;
 
     list-style: none;
@@ -40,7 +41,8 @@ h2 {
 
 .personal-info::after,
 .summary::after,
-.education::after {
+.education::after,
+.technical-skills::after {
     content: " ";
 
     display: block;

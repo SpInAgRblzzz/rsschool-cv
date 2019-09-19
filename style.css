@@ -47,7 +47,8 @@ ul {
 .summary::after,
 .education::after,
 .technical-skills::after,
-.experience::after {
+.experience::after,
+.projects::after {
     content: " ";
 
     display: block;

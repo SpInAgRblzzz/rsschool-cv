@@ -26,6 +26,10 @@ h2 {
     font-size: 30px;
 }
 
+ul {
+    padding-left: 20px;
+}
+
 .personal-info img {
     position: absolute;
     right: 75px;
@@ -42,7 +46,8 @@ h2 {
 .personal-info::after,
 .summary::after,
 .education::after,
-.technical-skills::after {
+.technical-skills::after,
+.experience::after {
     content: " ";
 
     display: block;

@@ -37,7 +37,8 @@ ul {
 }
 
 .personal-info ul,
-.technical-skills ul {
+.technical-skills ul,
+.english ul {
     padding: 0px;
 
     list-style: none;
@@ -61,4 +62,8 @@ ul {
     right: 50px;
 
     background-color: black;
+}
+
+.english {
+    padding-bottom: 50px;
 }

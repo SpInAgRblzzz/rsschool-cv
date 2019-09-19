@@ -1,3 +1,50 @@
-body {
-    background-color: blueviolet;
+body{
+    font-size: 20px;
+}
+
+article {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.personal-info {
+    position: relative;
+
+    min-height: 270px;
+}
+
+.personal-info h1 {
+    font-size: 40px;
+}
+
+.personal-info img {
+    position: absolute;
+    right: 75px;
+    top: 50px;
+}
+
+.personal-info ul {
+    padding: 0px;
+
+    list-style: none;
+}
+
+.personal-info::after {
+    content: " ";
+
+    display: block;
+
+    height: 2px;    
+
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    right: 50px;
+
+    background-color: black;
 }

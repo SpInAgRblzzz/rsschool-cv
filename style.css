@@ -8,18 +8,22 @@ article {
 }
 
 section {
+    position: relative;
+
     padding: 15px;
     padding-left: 25px;
 }
 
 .personal-info {
-    position: relative;
-
     min-height: 270px;
 }
 
-.personal-info h1 {
+h1 {
     font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .personal-info img {
@@ -34,7 +38,8 @@ section {
     list-style: none;
 }
 
-.personal-info::after {
+.personal-info::after,
+.summary::after {
     content: " ";
 
     display: block;

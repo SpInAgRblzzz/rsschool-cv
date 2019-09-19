@@ -1,0 +1,73 @@
+body{
+    font-size: 20px;
+}
+
+article {
+    max-width: 1024px;
+    margin: 0 auto;
+
+    border: solid black 2px;
+
+    box-shadow: 10px 20px 30px;
+}
+
+section {
+    position: relative;
+
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.personal-info {
+    min-height: 270px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.personal-info img {
+    position: absolute;
+    right: 75px;
+    top: 50px;
+}
+
+.personal-info ul,
+.technical-skills ul,
+.english ul {
+    padding: 0px;
+
+    list-style: none;
+}
+
+.personal-info::after,
+.summary::after,
+.education::after,
+.technical-skills::after,
+.experience::after,
+.projects::after {
+    content: " ";
+
+    display: block;
+
+    height: 2px;    
+
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    right: 50px;
+
+    background-color: black;
+}
+
+.english {
+    padding-bottom: 50px;
+}

@@ -39,7 +39,8 @@ h2 {
 }
 
 .personal-info::after,
-.summary::after {
+.summary::after,
+.education::after {
     content: " ";
 
     display: block;
